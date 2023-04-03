@@ -82,10 +82,10 @@ function NavBar({ cartAdded }) {
                <div className='cart mx-2'>
                   <FontAwesomeIcon icon={faPerson} className='icon' />
                   {isLogin ? (
-                     <div className='userName'>
+                     <div className='userNameLogin'>
                         <p className='userName'> I'm {currentUserName.fullName} </p>
-                        <span className='cartBtn' onClick={handleLogout}>
-                           (Logout)
+                        <span className='cartBtnLogout' onClick={handleLogout}>
+                           ( Logout )
                         </span>
                      </div>
                   ) : (

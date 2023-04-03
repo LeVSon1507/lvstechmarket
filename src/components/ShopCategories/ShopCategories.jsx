@@ -35,10 +35,10 @@ function ShopCategories() {
                      Iphone
                   </li>
                   <li
-                     onClick={() => onChooseCategory('ipod')}
-                     className={`cateText ${category === 'ipod' ? 'active' : ''}`}
+                     onClick={() => onChooseCategory('ipad')}
+                     className={`cateText ${category === 'ipad' ? 'active' : ''}`}
                   >
-                     Ipod
+                     Ipad
                   </li>
                   <li
                      onClick={() => onChooseCategory('macbook')}

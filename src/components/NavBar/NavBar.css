@@ -64,8 +64,18 @@
 .userName {
    display: flex;
    padding-right: 5px;
+   width: 100%;
 }
-
+.userNameLogin{
+   display: flex;
+   padding-right: 5px;
+   width: 100%;
+}
+.cartBtnLogout{
+   width: 100%;
+   align-items: center;
+   display: flex;
+}
 .cartProductQuantity {
    position: absolute;
    right: 0;
@@ -167,6 +177,26 @@
    }
    .cartBtn{
       width: 100%;
+      align-items: center;
+      display: flex;
+   }
+   .userName {
+      display: flex;
+      padding-right: 5px;
+      width: 100%;
+   }
+   .userNameLogin{
+      display: flex;
+      padding-right: 5px;
+      width: 100%;
+      flex-direction: column;
+      color: white;
+      text-align: center;
+   }
+   .cartBtnLogout{
+      width: 100%;
+      padding-left: 12px;
+      text-align: center;
       align-items: center;
       display: flex;
    }

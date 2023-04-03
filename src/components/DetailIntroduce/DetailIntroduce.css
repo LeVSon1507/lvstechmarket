@@ -1,0 +1,106 @@
+.detailContainer{
+    padding: 3rem 0;
+}
+.priceDetail{
+    font-weight: 500;
+   font-size: 26px;
+   padding: 1rem 0;
+}
+.mImg{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.imgGr>img{
+    object-fit: cover;
+    width: 8rem;
+    height: 8rem;
+}
+.imgGr>h1{
+    font-style: italic;
+    font-weight: 500;
+}
+.category{
+    display: flex;
+    padding: 1rem 0;
+}
+.category>h5{
+    margin-right: 10px;
+}
+.wrapQuanAndBtnGr{
+    display: flex;
+    
+}
+.quanNum{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    padding: 0rem 1rem;
+}
+.iconCaret{
+   font-size: 26px;
+   cursor: pointer;
+}
+.btnCaretSelector{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.numberSelector{
+    border: 1px solid #d3d3d3;
+    height: fit-content;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 1rem;
+    align-items: center;
+}
+.numberSelector>span{
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.addToCart{
+    padding:0 1rem;
+    background-color: black;
+    color: #d3d3d3;
+    font-style: italic;
+}
+.addToCart.added {
+    background-color: green;
+    color: white;
+    animation: pulse 1s forwards;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+  @media screen and (max-width:768px) {
+    .detailContainer{
+        width: 100%;
+    }
+    .imgGr{
+        padding-bottom: 10px;
+    }
+    .imgGr>img{
+        width: 147px;
+        height: 147px;
+        float: right;
+        min-width: fit-content;
+    }
+    .mainImg>img{
+        float: left;
+    }
+    
+}

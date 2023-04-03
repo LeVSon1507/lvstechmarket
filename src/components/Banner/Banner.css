@@ -1,0 +1,55 @@
+.bannerContainer{
+    position: relative;
+}
+.bannerImg {
+  background-image: url("../../../public/images/banner1.jpg");
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  height:30rem;
+  width: 40rem;
+  justify-content: center;
+  margin: 0rem auto;
+  display: flex;
+  align-items: center;
+}
+.bannerContent{
+    position: absolute;
+    top:9rem;
+    left: 4rem;
+}
+.subTitle{
+    color: #d3d3d3;
+    font-size: 16px;
+    font-style: italic;
+}
+.title{
+    color: black;
+    font-size: 32px;
+}
+.browseCol{
+    padding: 0.5rem 2rem;
+    font-style: italic;
+    color: #d3d3d3;
+    font-size: 18px;
+    background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .bannerImg {
+        background-image: url("../../../public/images/banner1.jpg");
+        background-size: cover;
+        background-position: center;
+        object-fit: fill;
+        height:20rem;
+        width: 10rem;
+        justify-content: center;
+        margin: 0rem auto;
+        display: flex;
+        align-items: center;
+      }
+      .bannerContainer{
+        position: relative;
+        padding: 2rem 0;
+    }
+}

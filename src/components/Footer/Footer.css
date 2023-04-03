@@ -1,0 +1,33 @@
+.footerContainer {
+   background-color: black;
+   width: 100%;
+   color: white;
+   text-align: start;
+   display: flex;
+   justify-content: center;
+
+}
+.footerWrap {
+   padding: 2rem 0;
+   width: 75%;
+   margin: 0 auto;
+ }
+ .footerWrap h5{
+   color: white;
+   font-style: italic;
+ }
+
+
+li {
+   color: #d3d3d3;
+   outline: none;
+   font-style: italic;
+   list-style-type: none;
+}
+
+@media screen and (max-width:768px) {
+   .footerWrap {
+      width: 100%;
+      margin: 0 auto;
+    }
+}

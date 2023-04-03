@@ -1,0 +1,13 @@
+{
+   "hosting": {
+      "public": "public",
+      "site": "lvsapplemarket",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+         {
+            "source": "**",
+            "destination": "/index.html"
+         }
+      ]
+   }
+}

@@ -1,0 +1,173 @@
+.navbarContainer {
+   position: relative;
+   display: flex;
+   justify-content: center;
+}
+.containerNav {
+   width: 80%;
+}
+.grLeft {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.grLeft > span:hover {
+   cursor: pointer;
+}
+
+.grRight {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+.homeText,
+.shopText {
+   font-style: italic;
+}
+.cart {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+.cart span:hover {
+   cursor: pointer;
+   color: #e6ca86;
+}
+
+.cart > span {
+   color: black;
+}
+
+.icon {
+   color: #d3d3d3;
+   padding: 0 0.2rem;
+}
+
+.title {
+   font-style: italic;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0.4rem 0;
+   font-weight: 400;
+}
+.title:hover {
+   cursor: pointer;
+   color: #e6ca86;
+}
+
+.active {
+   color: #e6ca86;
+}
+.userName {
+   display: flex;
+   padding-right: 5px;
+}
+
+.cartProductQuantity {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   color: #e6ca86;
+   background-color: white;
+   border-radius: 100px;
+   width: 10px;
+   font-size: 16px;
+   font-style: normal;
+   height: 10px;
+   display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.cartProductQuantity.added {
+   background-color: white;
+   color: #e6ca86;
+   animation: pulse 1s forwards;
+ }
+ 
+ @keyframes pulse {
+   0% {
+     transform: scale(1);
+   }
+   50% {
+     transform: scale(1.2);
+   }
+   100% {
+     transform: scale(1);
+   }
+ }
+
+@media screen and (max-width: 768px) {
+   .containerNav {
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .grLeft {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .grRight {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .title {
+      padding: 1rem 0;
+   }
+   .cart {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      border-radius: 4px;
+      width: 10rem;
+   }
+   .cart > span {
+      color: white;
+      padding: 0.5rem 1rem;
+      margin: 0 0.2rem;
+   }
+  
+   .cartProductQuantity {
+      position: absolute;
+      right: -5px;
+      top: -15px;
+      color: #e6ca86;
+      background-color: gray;
+      border-radius: 100px;
+      width: 30px;
+      margin: 1rem;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 30px;
+      font-size: 16px;
+      font-style: normal;
+      height: 10px;
+   }
+   .userName{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-items: center;
+   }
+   .userName>span{
+      width: 100%;
+      display: flex;
+      padding: 0.5rem 0;
+      color: azure;
+   }
+   .cartBtn{
+      width: 100%;
+      align-items: center;
+      display: flex;
+   }
+}

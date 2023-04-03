@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ 
+ body {
+    margin: 0;
+    overflow-x: hidden;
+ }
+ 
+ .loginPageContent {
+    width: 70%;
+    margin: 0 auto;
+ }
+ 
+ .loginBannerImg{
+   background-image: url('../../../public/images/banner1.jpg');
+   width: 100%;
+   min-height: 100vh;
+   background-position: center;
+   justify-content: center;
+   margin: 0rem auto;
+   display: flex;
+   align-items: center;
+}
+
+.loginFormContainer{
+   background-color: white;
+   height: 500px;
+   width: 500px;
+   margin-right: 4rem;
+   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.24);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-direction: column;
+}
+.loginForm{
+   display: flex;
+   flex-direction: column;
+   height: 100;
+}
+.email,.password{
+   padding: 1.2rem 12rem 1.2rem 1rem;
+   border: 1px solid #d3d3d3;
+}
+
+.password{
+   margin-bottom: 1.5rem;
+}
+
+.btnSubmit{
+   padding: 1rem 0;
+   background-color: black;
+   color: #d3d3d3;
+}
+
+.signUp{
+   padding-bottom: 4rem;
+}
+
+.signUp >span{
+   cursor: pointer;
+   color: blue;
+   padding-left: 4px;
+}
+
+.loginTitle{
+   color: gray;
+   font-weight: 400;
+   padding-top: 3rem;
+   font-size: 32px;
+}
+
+@media screen and (max-width:768px) {
+   .loginPageContent{
+       width: 100%;
+       margin: 0;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding: 1rem 0;
+   }
+   .loginFormContainer{
+      width: 100%;
+      display: flex;
+      margin: 1rem 0;
+   }
+   .loginForm{
+      width: 90%;
+   }
+   .loginFormContainer{
+      background-color: white;
+      height: 500px;
+      width: 500px;
+      margin: 0rem;
+      padding: 0 5rem;
+      box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.24);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+   }
+}

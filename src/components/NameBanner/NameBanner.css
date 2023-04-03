@@ -1,0 +1,31 @@
+.bannerName {
+    padding: 3rem 2rem;
+    background-color: #F6F9F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .titleName {
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-left: 1rem;
+ }
+ .subtitleName {
+    text-transform: uppercase;
+    font-style: italic;
+    color: #d3d3d3;
+    cursor: pointer;
+ }
+ .checkOutPath{
+   text-transform: uppercase;
+   font-style: italic;
+   color: black;
+   cursor: pointer;
+ }
+
+ @media screen and (max-width:768px) {
+   .bannerName{
+      margin-top: 2rem;
+   }
+ }

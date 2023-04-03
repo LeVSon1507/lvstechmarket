@@ -1,0 +1,61 @@
+.titleGrProduct {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   padding-left: 1rem;
+}
+.subTitleProduct {
+   color: #d3d3d3;
+   font-size: 16px;
+   font-style: italic;
+   padding: 2.4rem 0 0 0;
+}
+.titleProduct {
+   color: black;
+   font-style: italic;
+   font-size: 26px;
+   padding: 0 0 1rem 0;
+}
+
+.productContainer {
+   padding: 0 0 3.5rem 0;
+}
+.productItemContainer{
+   padding-bottom: 5rem;
+ 
+}
+.productName{
+   color: black;
+   font-weight: 500;
+   font-size: 14px;
+   font-style: italic;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding-top: 0.5rem;
+}
+.productPrice{
+   color: #d3d3d3;
+   font-style: italic;
+   font-weight: 500;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.productImg:hover{
+   opacity: 0.7;
+}
+.container {
+}
+.popupContainer {
+   position: relative;
+}
+.row {
+}
+.r1 {
+}
+.r2 {
+}

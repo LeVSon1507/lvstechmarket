@@ -1,0 +1,62 @@
+.description{
+    padding: 1rem 2.5rem;
+    background-color: black;
+    color: white;
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+.desTitle{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+
+.longDesText{
+    white-space: pre-wrap;
+    list-style: none;
+    padding-bottom: 5rem;
+    color: gray;
+}
+.longDesText::first-line{
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.footerDetail{
+    width: 60%;
+    text-align: center;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+.ftNamePriWrap{
+    display: flex;
+    text-align: center;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+.ftName{
+color: black;
+padding: 0.5rem 0;
+}
+
+.ftImg{
+    width: 15rem;
+    height: 17rem;
+}
+
+@media screen and (max-width:768px) {
+    .shopPageContent{
+        width: 100%;
+        padding: 1rem;
+    }
+    
+}

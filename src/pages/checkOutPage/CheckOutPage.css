@@ -1,0 +1,146 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   overflow-x: hidden;
+}
+
+.checkOutPageContainer {
+}
+
+.checkOutPageContent {
+   width: 70%;
+   margin: 0 auto;
+}
+
+.titleCheckOut {
+   font-style: italic;
+   font-weight: 500;
+   padding: 2rem 0 1rem 0;
+}
+/* total */
+.totalCheckout {
+   background-color: #f8f9fa;
+   margin-bottom: 1rem;
+}
+
+/* banner name checkout  */
+.bannerName {
+   padding: 3rem 2rem;
+   background-color: #f6f9f6;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.titleName {
+   font-style: italic;
+   text-transform: uppercase;
+   font-weight: 600;
+   padding-left: 1rem;
+}
+.subtitleName {
+   text-transform: uppercase;
+   font-style: italic;
+   color: #d3d3d3;
+   cursor: pointer;
+   display: flex;
+}
+.checkOutPath {
+   text-transform: uppercase;
+   font-style: italic;
+   color: black;
+   cursor: pointer;
+   padding:0 5px;
+}
+.checkOutZ{
+   padding-left: 5px;
+}
+
+.titleCheckOut {
+   font-weight: 400;
+}
+
+.checkOutTbContainer {
+   width: 100%;
+}
+.checkOutTitle {
+}
+.checkoutIp {
+   width: 100%;
+   padding: 0.5rem 0 0.5rem 1rem;
+   margin: 0.5rem 0;
+}
+.order {
+   padding: 0.3rem 2rem;
+   color: #d3d3d3;
+   font-style: italic;
+   font-size: 20px;
+   background-color: black;
+   margin: 1rem 0;
+}
+.productCheckOutContainer {
+   display: flex;
+   align-items: center;
+   border-bottom: 1px solid #d3d3d3;
+   padding: 1rem 0;
+   margin-bottom: 0.2rem;
+}
+.productCheckOutName {
+   font-weight: 500;
+   font-style: italic;
+   width: 50%;
+}
+.productCheckOutPriceAndQtt {
+   display: flex;
+   width: 50%;
+   justify-content: flex-end;
+}
+.productCheckOutPrice {
+   display: flex;
+   color: #d3d3d3;
+   font-style: italic; 
+}
+.productCheckOutQtt {
+   display: flex;
+   color: #d3d3d3;
+   font-style: italic; 
+   padding-left: 2px;
+}
+
+
+@media screen and (max-width:768px) {
+   .checkOutPageContent {
+      width: 100%;
+      margin: 0 auto;
+   }
+  .checkOutPageContent> .bannerName{
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+   }
+   .checkOutPageContent> .bannerName> .subtitleName{
+      width: 100%;
+   }
+   .checkOutPageContent> .bannerName> .titleName {
+    padding: 0 10px 0 0;
+   }
+   .checkOutPageContent> .bannerName> .checkOutPath {
+      padding:0 0 1rem 0;
+   }
+   .checkOutContainer{
+      padding: 1rem;
+   }
+   .titleCheckOut{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .checkoutIp{
+      border: #d3d3d3 1px solid;
+   }
+}

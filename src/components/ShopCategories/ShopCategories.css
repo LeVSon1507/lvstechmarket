@@ -1,0 +1,85 @@
+
+
+.cateWrap{
+    position: relative;
+    margin: 2rem 0;
+    padding: 1rem 0;
+}
+
+.categoriesBar {
+}
+.blackBgr{
+    background-color: black !important;
+    color: #d3d3d3 !important;
+}
+.titleCate {
+   font-style: italic;
+   color: black;
+   padding: 0.2rem 1rem;
+}
+.subTitleCate {
+   background-color: #d3d3d3;
+   color: black;
+   font-style: italic;
+   font-size: 18px;
+   padding: 0.5rem 1rem;    
+}
+.cateText {
+   font-style: italic;
+   color: #d3d3d3;
+   font-size: 16px;
+   padding: 0.7rem 1rem;
+}
+
+.cateText:hover{
+   color: #e6ca86;
+   cursor: pointer;
+}
+
+.active{
+   color: #e6ca86;
+}
+
+.headerProductCate{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.categoriesProduct {
+}
+
+.searchProductIp{
+padding: 0.5rem 6rem 0.5rem 0.5rem;
+border: #d3d3d3 1px solid;
+}
+
+li {
+   list-style-type: none;
+}
+
+@media screen and (max-width:768px) {
+   .headerProductCate{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 0rem  1.5rem;
+   }
+   .searchProductIp{
+      width: 100%;
+   }
+   select{
+      border: 1px solid #d3d3d3;
+   }
+   .titleCate{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .container>li{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+}

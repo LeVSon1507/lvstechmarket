@@ -43,6 +43,7 @@
 .icon {
    color: #d3d3d3;
    padding: 0 0.2rem;
+   cursor: pointer;
 }
 
 .title {
@@ -64,18 +65,8 @@
 .userName {
    display: flex;
    padding-right: 5px;
-   width: 100%;
 }
-.userNameLogin{
-   display: flex;
-   padding-right: 5px;
-   width: 100%;
-}
-.cartBtnLogout{
-   width: 100%;
-   align-items: center;
-   display: flex;
-}
+
 .cartProductQuantity {
    position: absolute;
    right: 0;
@@ -143,7 +134,12 @@
       padding: 0.5rem 1rem;
       margin: 0 0.2rem;
    }
-  
+   .cartBtn{
+      width: 100%;
+      align-items: center; 
+      display: flex;
+      font-style: italic;
+   }
    .cartProductQuantity {
       position: absolute;
       right: -5px;
@@ -177,27 +173,8 @@
    }
    .cartBtn{
       width: 100%;
-      align-items: center;
+      align-items: center; 
       display: flex;
-   }
-   .userName {
-      display: flex;
-      padding-right: 5px;
-      width: 100%;
-   }
-   .userNameLogin{
-      display: flex;
-      padding-right: 5px;
-      width: 100%;
-      flex-direction: column;
-      color: white;
-      text-align: center;
-   }
-   .cartBtnLogout{
-      width: 100%;
-      padding-left: 12px;
-      text-align: center;
-      align-items: center;
-      display: flex;
+      font-style: italic;
    }
 }
